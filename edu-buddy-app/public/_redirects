@@ -1,0 +1,13 @@
+/* Always serve index.html for routes */
+/* This enables client-side routing for SPA */
+/*
+  path: /assets/*
+  status: 200
+*/
+
+/* Catch all - serve index.html for all routes */
+/*
+  path: /*
+  status: 200
+  rewrite: /index.html
+*/

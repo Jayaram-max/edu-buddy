@@ -1,0 +1,14 @@
+{
+  "name": "edu-buddy",
+  "main": "dist/index.html",
+  "version": "0.0.1",
+  "description": "Edu Buddy - AI Learning Platform",
+  "build": {
+    "command": "npm run build",
+    "cwd": "/",
+    "destination": "dist"
+  },
+  "env": {
+    "PRODUCTION": {}
+  }
+}
