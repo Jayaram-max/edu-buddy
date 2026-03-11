@@ -17,6 +17,7 @@ import EditProfile from './pages/EditProfile'
 import Analytics from './pages/Analytics'
 import ScheduleSession from './pages/ScheduleSession'
 import DemoMountain from './pages/DemoMountain'
+import NotFound from './pages/NotFound'
 
 
 
@@ -79,6 +80,9 @@ function App() {
               <Analytics />
             </ProtectedRoute>
           } />
+          
+          {/* Catch-all 404 route - must be last */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
       </TrackingProvider>
